@@ -12,8 +12,36 @@
         background-size: cover;         
         background-repeat: no-repeat;
         background-position: center;
-        color: white;
+        color:#020000);
+        margin: 1;
+        padding: 0.5;
+    }
+    header, nav, section{
+        margin: 0.5;
+        padding: auto;
+        background-color: rgb(255, 255, 255,0.8);
+        border-radius: 9px;
 
+    }
+    header,h1,h2,h3, h4, section,{
+        text-align : center;
+        color: #456;
+    }
+    nav ul{
+        list-style-type: disc;
+        padding: 0;
+    }
+    nav ul li{
+        display:inline-flex;
+        margin-right: 10px;
+    }
+    nav ul li a {
+    text-decoration: none;
+    color: #8d4040;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
     }
 </style>
     <body>
@@ -42,8 +70,8 @@
         <section id="projects">
             <h2>My Projects</h2>
             <div class="Projects">
-                <h3>Project 1</h3>
-                <p style="color: blue;", style="font-size: larger;" >Implementation Plan forAmazon RDS with MySQL at XYZ Corporation</p>
+                
+                <h3 style="color: blue;", style="font-size: larger;" >Implementation Plan forAmazon RDS with MySQL at XYZ Corporation</h3>
                 <p>The implementation of Amazon RDS with MySQL provided XYZ Corporation with a scalable, reliable,
                     and secure data management solution that meet the company’s growing data needs. RDS MySQL will
                     help XYZ Corporation improve data management efficiency, reduce costs, enhance security, and
@@ -53,7 +81,8 @@
                             <li><a href="https://waltermike610.medium.com/implementation-plan-for-amazon-rds-with-mysql-at-xyz-corporation-44402a25373d"><button type="submit">Read more</button></a> </li>
                         </ul>
                     </nav>
-                <p style="color: blue;", style="font-size: large;">Created an App Client AWS Cognito</p> 
+                
+                <h3 style="color: blue;", style="font-size: large;">Created an App Client AWS Cognito</h3> 
                 <p>Establishing an app client in AWS Cognito serves as a pivotal step in enhancing the security and functionality of your application.</p>
                 <p>By seamlessly connecting your application with Cognito, you gain the ability to authenticate users, manage their identities, and access authorized resources.</p>
                 <p>The outlined steps, starting from selecting the user pool to configuring additional settings, provide acomprehensive guide to creating a robust app client.</p>
@@ -62,7 +91,7 @@
                         <li><a href="https://waltermike610.medium.com/creating-an-app-client-in-aws-cognito-38a0d5179d4e"> <button type="submit">Read more </button></a></li>
                     </ul>
                 </nav>
-                <p style="color: blue;", style="font-size: large;">Terraform AWS 2-TierVPC</p>
+                <h3 style="color: blue;", style="font-size: large;">Terraform AWS 2-TierVPC</h3>
                 <p>Offered a streamlined approach to creating a robust 2-tier Amazon VPC architecture with both public and private subnets.</p>
                 <p>The project ensures a well-architected environment by incorporating EC2 instances in each subnet, with the public subnet allowing internet access.</p>
                 <nav>
@@ -73,7 +102,7 @@
             </div>
         </section>
         <section id="skills">
-            <h3>My Skills</h3>
+            <h2>My Skills</h>
             <ul>
                 <li>Python Proogramming</li>
                 <li>Domain Name System (DNS)</li>
@@ -85,10 +114,10 @@
             </ul>
         </section>
         <section id="experience">
-            <h4>My Professional Experience</h4>
+            <h2>My Professional Experience</h2>
             <p>AI-Powered Product Discovery Remote ExternshipLab</p>
             <p>from 01/2024 – 02/2024</p>
-            <h5>My Roles and duties included but were not limited to </h5>
+            <h3>My Roles and duties included but were not limited to </h3>
             <p>•Learned a framework for validating product-market fit hypotheses</p>
             <p>•Conducted customer interviews to gather feedback on product concepts</p>
             <p>•Analyzed experiment results to identify key insights</p>
@@ -96,7 +125,7 @@
             <p>•Presented validation methodology, results, and recommendations</p>
         </section>
         <section id="education">
-            <h6>Education</h6>
+            <h2>Education</h2>
             <div class="education">
                 <h3>Bachelor of Education-Geography and Kiswahili</h3>
                 <h3>University of Eldoret</h3>
